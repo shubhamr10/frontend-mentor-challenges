@@ -1,0 +1,131 @@
+/* import robotos */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    height: 478px;
+    background-image: url("./assets/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .banner-text{
+    font-size: 42px;
+    color:white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.banner .banner-button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 196px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    display: flex;
+    padding:50px;
+}
+
+.pre{
+    color: darkgray;
+    justify-content: space-between;
+}
+
+.card{
+    height: 380px;
+    width: 300px;
+    background-color: grey;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+
+.card .name{
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.card .level{
+  font-size: 20px;
+  padding-top: 7px;
+}
+
+.card .language{
+  font-size: 14px;
+  color: rgb(0, 136, 255);
+}
+
+.card .date-of-completion{
+  font-size: 14px;
+}
+
+.card .button-group{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .button-group .button-preview{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(255, 32, 69);
+    color:white;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+}
+
+.card .button-group .button-check-code{
+  height: 40px;
+  width: 100px;
+  background-color: rgb(255, 184, 32);
+  color:white;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#search-box-1{
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+}

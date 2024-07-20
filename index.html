@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend mentor coding challenges</title>
+    <title>Frontend mentor challenges</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <script defer src="./app.js"></script>
 </head>
 <body>
-    <div>
-        <h1>Hello, Welcome to my Frontend mentor challenges solution </h1>
+    <div class="banner">
+        <div class="roboto-bold  banner-text">Welcome to my frontend mentor challenge page</div>
+        <button class="roboto-medium banner-button" onclick="clickGithubButton()">Check my Github</button>
     </div>
-    <div class="container">
-        <div class="card">
-            <div>Name</div>
-            <div>Go button</div>
-        </div>
-    </div>
+    <section class="pre content roboto-medium">
+        <div>Recent challenges</div>
+        <div><input type="search" onchange="onSearchBoxChange(event)" name="search-box" id="search-box-1" placeholder="   Search Recent Challenges"></div>
+    </section>
+    <section id="content" class="content">
+    </section>
 </body>
 </html>
