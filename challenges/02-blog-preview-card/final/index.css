@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,800&display=swap');
+
+.figtree-400 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.figtree-500 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.figtree-800 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+:root{
+    --color-yellow:hsl(47, 88%, 63%);
+    --color-white:hsl(0, 0%, 100%);
+    --color-gray-500:hsl(0, 0%, 42%);
+    --color-gray-950:hsl(0, 0%, 7%);
+}
+
+body{
+    background-color: var(--color-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+/* smaller screen */
+@media only screen and (max-width: 376px) {
+    .card{
+        width: 350px;
+        height: 510px;
+        background-color: var(--color-white);
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 10px 10px;
+    }
+    .learning-button-1{
+        width: 73px;
+        height: 26px;
+        background-color: var(--color-yellow);
+        box-shadow: none;
+        border: none;
+        border-radius: 4px;
+        margin-top: 24px;
+        cursor: pointer;
+        color: var(--color-gray-950);
+        font-size: 14px;
+    }
+    
+    .published-date-class{
+        color: var(--color-gray-950);
+        margin-top: 12px;
+        font-size: 12px;
+    }
+    
+    h1{
+        font-size: 20px;
+        color: var(--color-gray-950);
+    }
+    
+    h1:hover{
+        color: var(--color-yellow);
+    }
+    
+    p{
+        font-size: 14px;
+        color: var(--color-gray-500);
+        line-height: 1.5;
+        word-spacing: 2px;
+    }
+    
+    .profile{
+        width: 150px;
+        height: 32px;
+        display: flex;
+        padding-top: 24px;
+    }
+    
+    .profile img{
+        height: 32px;
+        width: 32px;
+    }
+    
+    .profile div{
+        height: 32px;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        padding-left: 12px;
+        font-size: 14px;
+    }
+
+}
+/* bigger screen */
+@media only screen and (min-width: 375px) {
+    .card{
+        width: 280px;
+        height: 501px;
+        background-color: var(--color-white);
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 10px 10px;
+    }
+    .learning-button-1{
+        width: 82px;
+        height: 29px;
+        background-color: var(--color-yellow);
+        box-shadow: none;
+        border: none;
+        border-radius: 4px;
+        margin-top: 24px;
+        cursor: pointer;
+        color: var(--color-gray-950);
+        font-size: 14px;
+    }
+    
+    .published-date-class{
+        color: var(--color-gray-950);
+        margin-top: 12px;
+        font-size: 16px;
+    }
+    
+    h1{
+        font-size: 24px;
+        color: var(--color-gray-950);
+    }
+    
+    h1:hover{
+        color: var(--color-yellow);
+    }
+    
+    p{
+        font-size: 16px;
+        color: var(--color-gray-500);
+        line-height: 1.5;
+        word-spacing: 2px;
+    }
+    
+    .profile{
+        width: 150px;
+        height: 32px;
+        display: flex;
+        padding-top: 24px;
+    }
+    
+    .profile img{
+        height: 32px;
+        width: 32px;
+    }
+    
+    .profile div{
+        height: 32px;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        padding-left: 12px;
+    }
+}
+
+.illustration-article{
+    border-radius: 10px;
+}
+
