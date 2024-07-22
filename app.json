@@ -6,6 +6,15 @@
         "languages":"HTML, CSS",
         "date":"12 July 2024",
         "preview":"./challenges/01-qr-code-component/final/index.html",
-        "code":""
+        "code":"https://github.com/shubhamr10/frontend-mentor-challenges/tree/master/challenges/01-qr-code-component/final"
+    },
+    {
+        "name":"Blog Preview Card",
+        "profile":"./challenges/02-blog-preview-card/starter/preview.jpg",
+        "level":"Newbie",
+        "languages":"HTML, CSS",
+        "date":"22 July 2024",
+        "preview":"./challenges/02-blog-preview-card/final/index.html",
+        "code":"https://github.com/shubhamr10/frontend-mentor-challenges/tree/master/challenges/02-blog-preview-card/final"
     }
 ]
