@@ -16,5 +16,14 @@
         "date":"22 July 2024",
         "preview":"./challenges/02-blog-preview-card/final/index.html",
         "code":"https://github.com/shubhamr10/frontend-mentor-challenges/tree/master/challenges/02-blog-preview-card/final"
+    },
+    {
+        "name":"Social links Profile",
+        "profile":"./challenges/03-social-links-profile-main/starter/preview.jpg",
+        "level":"Newbie",
+        "languages":"HTML, CSS",
+        "date":"03 August 2024",
+        "preview":"./challenges/03-social-links-profile-main/final/index.html",
+        "code":"https://github.com/shubhamr10/frontend-mentor-challenges/tree/master/challenges/03-social-links-profile-main/final"
     }
 ]
