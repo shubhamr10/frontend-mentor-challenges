@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "inter";
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+:root{
+    --font-size-body: 14px;
+
+    --color-green:hsl(75, 94%, 57%);
+    --color-white:hsl(0, 0%, 100%);
+    --color-grey-700:hsl(0, 0%, 20%);
+    --color-grey-800:hsl(0, 1%, 12%);
+    --color-grey-900:hsl(0, 0%, 6%);
+}
+
+body{
+    background-color: var(--color-grey-900);
+    font-family: "inter";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--color-grey-800);
+}
+
+/* .card{
+    background-color: var(--color-grey-800);
+    height: 500px;
+    width: 320px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:200px;
+    margin-bottom: auto;
+    color: var(--color-white);
+    padding: 30px;
+    box-sizing: border-box;
+}*/
+
+ .profile-image{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+} 
+
+section{
+    text-align: center;
+} 
+
+/* For smaller screen than 375px */
+@media only screen and (max-width: 379px) {
+    .card{
+        height: 600px;
+        width: 320px;
+        border-radius: 10px;
+        color: var(--color-white);
+        box-sizing: border-box;
+        padding: 30px;
+        padding-bottom: 10px;
+        margin-top: 80px;
+    }
+    
+    section h1{
+        font-family: "inter";
+        margin-bottom: 8px;
+    }
+
+    section h5{
+        color: var(--color-green);
+        margin-top: 0;
+    }
+
+    section h5:nth-of-type(2){
+        color: var(--color-white);
+        font-weight: normal;
+    }
+
+    button{
+        width: 260px;
+        border-radius: 8px;
+        height: 45px;
+        background-color: var(--color-grey-700);
+        border: none;
+        color: var(--color-white);
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: var(--font-size-body);
+    }
+
+    button:hover{
+        background-color: var(--color-green);
+        color: var(--color-grey-800);
+    }
+    
+}
+
+/* For bigger screen than 380px */
+@media only screen and (min-width: 380px) {
+    .card{
+        height: 600px;
+        width: 320px;
+        border-radius: 10px;
+        color: var(--color-white);
+        box-sizing: border-box;
+        padding: 30px;
+        padding-bottom: 10px;
+        margin-top: 80px;
+    }
+    
+    section h1{
+        font-family: "inter";
+        margin-bottom: 8px;
+    }
+
+    section h5{
+        color: var(--color-green);
+        margin-top: 0;
+    }
+
+    section h5:nth-of-type(2){
+        color: var(--color-white);
+        font-weight: normal;
+    }
+
+    button{
+        width: 260px;
+        border-radius: 8px;
+        height: 45px;
+        background-color: var(--color-grey-700);
+        border: none;
+        color: var(--color-white);
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: var(--font-size-body);
+    }
+
+    button:hover{
+        background-color: var(--color-green);
+        color: var(--color-grey-800);
+    }
+    
+}
