@@ -33,5 +33,164 @@
 @media only screen and (min-width: 375px) {
     body{
         background-color: var(--color-stone-100);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 98vh;
     }
+
+    main{
+        width: 800px;
+        background-color: var(--color-white);
+        box-sizing: border-box;
+        padding: 35px;
+        border-radius: 15px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    main img{
+        border-radius: 15px;
+    }
+
+    main h1{
+        font-family: "Young-serif";
+        font-weight: 400;
+        color: var(--color-stone-900)
+    }
+
+    main .intro{
+        font-family: "Outfit";
+        font-size: var(--font-size-body);
+        color: var(--color-stone-600);
+    }
+
+    main .preparation-time{
+        background-color: var(--color-rose-50);
+        border-radius: 15px;
+        box-sizing: border-box;
+        padding: 18px;
+        margin-top: 30px;
+        padding-left: 30px;
+    }
+
+    main .preparation-time p{
+        font-family: "Outfit";
+        font-weight: 600;
+        color: var(--color-rose-800);
+        font-size: var(--font-size-body);
+        margin-top: 10px;
+    }
+
+    main .preparation-time ul{
+        padding-left: 20px;
+        font-family: "Outfit";
+        font-size: var(--font-size-body);
+        color: var(--color-stone-600);
+    }
+
+    main .preparation-time ul li{
+        padding-left: 15px;
+    }
+
+    main .preparation-time ul li::marker{
+        color: var(--color-rose-800);
+    }
+
+    main .ingredients h2{
+        font-family: "Young-serif";
+        color:var(--color-brown-800);
+        font-weight: 400;
+    }
+
+    main .ingredients ul{
+        padding-left: 25px;
+        font-family: "Outfit";
+        font-size: var(--font-size-body);
+        color: var(--color-stone-600);
+        font-weight: 400;
+    }
+
+    main .ingredients ul li{
+        padding-left: 15px;
+    }
+
+
+    main .ingredients ul li::marker{
+        color:var(--color-brown-800);
+    }
+
+
+
+
+    main .instructions h2{
+        font-family: "Young-serif";
+        color:var(--color-brown-800);
+        font-weight: 400;
+    }
+
+    main .instructions ol{
+        padding-left: 25px;
+        font-family: "Outfit";
+        font-size: var(--font-size-body);
+        color: var(--color-stone-600);
+        font-weight: 400;
+    }
+
+    main .instructions ol li{
+        padding-left: 15px;
+        padding-bottom: 10px;
+        line-height: 22px;
+
+    }
+
+    main .instructions ol li::marker{
+        color:var(--color-brown-800);
+        font-weight: 700;
+    }
+
+
+
+    
+
+    main .nutrition h2{
+        font-family: "Young-serif";
+        color:var(--color-brown-800);
+        font-weight: 400;
+    }
+
+    main .nutrition p{
+        font-family: "Outfit";
+        font-size: var(--font-size-body);
+        color: var(--color-stone-600);
+        font-weight: 400;
+    }
+
+    main .nutrition table{
+        border-collapse: collapse;
+    }
+
+    main .nutrition tr{
+        border-bottom: 1px solid var(--color-stone-150);
+
+    }
+
+    main .nutrition tr td{
+        height: 35px;
+        font-family: "Outfit";
+        font-size: var(--font-size-body);
+        color: var(--color-stone-600);
+        font-weight: 400;
+        padding-left: 40px;
+    }
+
+    main .nutrition tr td:nth-of-type(2){
+        color:var(--color-brown-800);
+        font-weight: 700;
+    }
+
+    main .nutrition tr:last-child{
+        border-bottom: none;
+    }
+
 }
