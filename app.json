@@ -25,5 +25,14 @@
         "date":"03 August 2024",
         "preview":"./challenges/03-social-links-profile-main/final/index.html",
         "code":"https://github.com/shubhamr10/frontend-mentor-challenges/tree/master/challenges/03-social-links-profile-main/final"
+    },
+    {
+        "name":"Recipe page main",
+        "profile":"./challenges/04-recipe-page-main/starter/preview.jpg",
+        "level":"Newbie",
+        "languages":"HTML, CSS",
+        "date":"12 August 2024",
+        "preview":"./challenges/04-recipe-page-main/final/index.html",
+        "code":"https://github.com/shubhamr10/frontend-mentor-challenges/tree/master/challenges/04-recipe-page-main/final"
     }
 ]
